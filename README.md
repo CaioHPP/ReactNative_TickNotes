@@ -1,6 +1,5 @@
 PARA RODAR O BACKEND:
 
-```
 Instale as dependências com o comando
 ```
 npm i #Apenas primeira vez
