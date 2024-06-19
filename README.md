@@ -1,8 +1,5 @@
 PARA RODAR O BACKEND:
 
-Acesse o diretório do backend
-```
-cd backend
 ```
 Instale as dependências com o comando
 ```
