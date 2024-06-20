@@ -28,8 +28,13 @@ const deleteList = async (id) => {
   await prisma.list.delete({
     where: {
       id,
+     
+ 
     },
   });
+  
+  
+  
 };
 
 module.exports = { getLists, createList, updateList, deleteList };

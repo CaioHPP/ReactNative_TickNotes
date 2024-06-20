@@ -6,7 +6,7 @@ npm i #Apenas primeira vez
 ```
 Faça a criação do banco de dados
 ```
-npx prisma init --datasource-provider sqlite #Apenas primeira vez
+npx prisma migrate #Apenas primeira vez
 ```
 Inicie o backend
 ```

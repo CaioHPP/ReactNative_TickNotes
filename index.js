@@ -9,7 +9,7 @@ const { router: noteRouter } = require("./routes/note");
 
 server.use(express.json());
 server.use((req, res, next) => {
-  console.log(req.url);
+  console.log(req.method, req.url);
   next();
 });
 
@@ -18,4 +18,5 @@ server.use(noteRouter);
 
 server.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`.blue.bold.underline);
+  
 });
