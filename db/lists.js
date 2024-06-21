@@ -1,7 +1,10 @@
 const { prisma } = require("../db/prisma");
 
 const getLists = async () => {
-  const lists = await prisma.list.findMany();
+  const lists = await prisma.list.findMany({
+    orderBy: {
+      id: "desc",
+  },}); 
   return lists;
 };
 
